@@ -45,9 +45,9 @@ Durante a auditoria inicial da base, foram mapeadas as seguintes inconsistência
 
 - **Nomes de Clientes:** Registros vazios, abreviações incorretas e falta de padronização em letras maiúsculas/minúsculas.
 
-- **Datas:** Mistura entre o padrão brasileiro (DD/MM/YYYY) e o internacional (YYYY-MM-DD).
+- **Datas:** Mistura entre o padrão brasileiro (`DD/MM/YYYY`) e o internacional (`YYYY-MM-DD`).
 
-- **Tipos de Dados e Unidades:** Colunas numéricas (como peso e valor) misturadas com caracteres textuais (ex: 250g, R$).
+- **Tipos de Dados e Unidades:** Colunas numéricas (como peso e valor) misturadas com caracteres textuais (ex: `250g`, `R$`).
 
 - **Valores Categóricos:** Grafias divergentes para um mesmo produto e ausência de padronização nos status de pagamento.
 
@@ -58,10 +58,13 @@ Durante a auditoria inicial da base, foram mapeadas as seguintes inconsistência
 Este projeto foi desenvolvido com o principal intuito de estudar e aplicar conceitos fundamentais de **Governança e Qualidade de Dados** em um cenário prático. Através da construção deste repositório, foi possível vivenciar os desafios reais que envolvem a estruturação de dados desorganizados e entender como a governança impacta diretamente a confiabilidade da informação.
 
 ### O que aprendi na prática:
-* **Especificação Técnica:** Como estruturar um **Dicionário de Dados** e um **Glossário de Negócio**, definindo claramente tipos de dados, obrigatoriedade de campos e regras empresariais.
-* **Diagnóstico de Anomalias:** A identificar padrões de erro comuns em bases brutas, como inconsistências de formatação, divergências entre padrões regionais (brasileiro vs. internacional) e dados ausentes (`NaN`).
-* **Automação de Limpeza com Python:** A utilização da biblioteca **Pandas** para aplicar transformações programáticas, utilizando parâmetros avançados (como `format='mixed'`, `dayfirst=True` e `errors='coerce'`) para blindar o código contra falhas de conversão.
-* **Visão Sistêmica:** Compreender a importância de manter um pipeline documentado e auditável, garantindo que a base de dados transite do "caos" bruto para um formato confiável e pronto para uso analítico.
+- **Especificação Técnica:** Como estruturar um **Dicionário de Dados** e um **Glossário de Negócio**, definindo claramente tipos de dados, obrigatoriedade de campos e regras empresariais.
+
+- **Diagnóstico de Anomalias:** A identificar padrões de erro comuns em bases brutas, como inconsistências de formatação, divergências entre padrões regionais (brasileiro vs. internacional) e dados ausentes (`NaN`).
+
+- **Automação de Limpeza com Python:** A utilização da biblioteca **Pandas** para aplicar transformações programáticas, utilizando parâmetros avançados (como `format='mixed'`, `dayfirst=True` e `errors='coerce'`) para blindar o código contra falhas de conversão.
+
+- **Visão Sistêmica:** Compreender a importância de manter um pipeline documentado e auditável, garantindo que a base de dados transite do "caos" bruto para um formato confiável e pronto para uso analítico.
 
 ---
 
