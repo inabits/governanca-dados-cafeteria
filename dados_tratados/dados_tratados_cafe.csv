@@ -1,0 +1,11 @@
+id_pedido,nome_cliente,data_pedido,produto_cafe,peso_g,tipo_moagem,valor_pago,status_pagamento
+101,Ana Souza,2026-05-12,Café Arábica Especial,250,Em grão,35.0,Pago
+102,Carlos Eduardo,2026-05-12,Cafe Arabica Especial,250,Em grão,35.0,Aprovado
+103,Mariana Lima,2026-05-14,Bourbom Amarelo,500,Moído,60.0,Pago
+104,Ana Souza,2026-05-15,Café Arábica Especial,250,Em grão,35.0,Pendente
+105,Lucas Mendes,2026-05-18,Cafe Catuaí Vermelho,500,Pó,50.0,Cancelado
+106,Mariana Lima,2026-05-20,Bourbom Amarelo,500,Moído,60.0,Pago
+107,Beatriz Silva,2026-05-22,Cafe Gesha Raro,250,Em grão,120.0,Pendente
+108,Carlos Eduardo,2026-05-25,Café Catuai Vermelho,500,Pó,50.0,Aprovado
+109,Desconhecido,2026-05-26,Cafe Bourbon Amarelo,500,Moído,60.0,Pago
+110,João Pedro,2026-05-30,Café Arábica Especial,250,Em grão,35.0,Pendente
