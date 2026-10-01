@@ -1,0 +1,11 @@
+id_pedido,nome_cliente,data_pedido,produto_cafe,peso_g,tipo_moagem,valor_pago,status_pagamento
+101,Ana Souza,12/05/2026,Café Arábica Especial,250,Grao,"R$ 35,00",Pago
+102,carlos EDUARDO,2026-05-12,Cafe Arabica Especial,250g,em grao,35.00,aprovado
+103,Mariana Lima,14/05/2026,Bourbom Amarelo,500,Moido,"R$ 60,00",PAGO
+104,A. Souza,15/05/2026,Café Arábica Especial,250,Grão,35,Pendente
+105,Lucas Mendes,18/05/2026,Cafe Catuaí Vermelho,500g,Pó,"R$ 50,00",cancelado
+106,Mariana Lima,20/05/2026,Bourbom Amarelo,500,moido,60.00,Pago
+107,Beatriz silva,22/05/2026,Cafe Gesha Raro,250,Grao,"R$ 120,00",
+108,Carlos Eduardo,25/05/2026,Café Catuai Vermelho,500,po,50,Aprovado
+109,,26/05/2026,Cafe Bourbon Amarelo,500g,Moido,"R$ 60,00",Pago
+110,João Pedro,30/05/2026,Café Arábica Especial,250,Grão,"R$ 35,00",Pendente
